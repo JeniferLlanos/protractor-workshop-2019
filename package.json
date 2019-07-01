@@ -1,0 +1,28 @@
+{
+  "name": "protractor-workshop-2019",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeniferLlanos/protractor-workshop-2019.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "protractor"
+  ],
+  "author": "Jenifer Llanos - jenifer.llanos@gmail.com (JeniferLlanos)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeniferLlanos/protractor-workshop-2019/issues"
+  },
+  "homepage": "https://github.com/JeniferLlanos/protractor-workshop-2019#readme",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  }
+}
