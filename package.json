@@ -4,8 +4,7 @@
   "description": "This is a Workshop about Protractor",
   "main": "index.js",
   "scripts": {
-    "test": "protractor protractor.config.js"
-    "clean": "rm -rf dist",
+    "clean": "del /f dist",
     "prebuild": "npm run clean",
     "build": "tsc",
     "test": "npm run build && protractor dist/protractor/config.js"
@@ -27,6 +26,7 @@
   },
   "homepage": "https://github.com/JeniferLlanos/protractor-workshop-2019#readme",
   "dependencies": {
+    "@types/node": "^12.0.10",
     "protractor": "^5.4.2"
   },
   "devDependencies": {
